@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+    font-style: italic;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    shape-margin: 0.75rem;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
